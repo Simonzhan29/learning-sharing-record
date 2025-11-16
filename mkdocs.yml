@@ -1,0 +1,19 @@
+site_name: 学习型 YouTuber 工作流测试项目
+site_description: 学习笔记 + MkDocs 博客 + GitHub Actions + 云服务器 + YouTube 的完整工作流
+site_url: https://example.com  # 先占位，等域名和服务器配置好再改
+
+# 以后创建 GitHub 仓库后再补充
+repo_url: https://github.com/你的GitHub用户名/learning-workflow-demo
+repo_name: learning-workflow-demo
+
+theme:
+  name: material
+  language: zh
+
+docs_dir: docs
+
+nav:
+  - 首页: index.md
+  - 视频笔记:
+      - 工作流测试项目:
+          - Day 01：这套工作流是干嘛的？: videos/workflow/day01.md
